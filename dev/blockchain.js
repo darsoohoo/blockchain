@@ -37,5 +37,11 @@ Blockchain.prototype.createNewTransaction = function(amount, sender, recipient){
 }
 
 
+Blockchain.prototype.hashBlock = function(blockData){
+
+    // ... return '090990SDFSDFDS34634GHFGHFG90'
+    
+}
+
 
 module.exports = Blockchain;
